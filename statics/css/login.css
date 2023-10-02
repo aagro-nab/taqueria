@@ -1,0 +1,49 @@
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.10);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.selectUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#tacosLogo{
+    width: 20%;
+    animation: pulse 4s ease infinite;
+    margin-bottom: 2%;
+}
+
+#sendUser-btn{
+    border: none;
+    padding-left: 1.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1.5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: rgb(117, 161, 114);
+}
+
+#sendUser-btn:hover{
+    background-color: rgb(84, 117, 82);
+    scale: 0.95;
+}
