@@ -1,7 +1,7 @@
 <?php
     define("DBHOST", "localhost");
     define("DBUSER", "root");
-    define("PASSWORD", "");
+    define("PASSWORD", "G1IhH41r1tW");
     define("DB", "taqueria");
 
     function connect(){

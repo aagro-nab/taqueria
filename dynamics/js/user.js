@@ -4,7 +4,6 @@ window.addEventListener("DOMContentLoaded", () => {
     const taquero = "./statics/templates/taquero.html";
     const comensal = "./statics/templates/comensal.html";
     
-
     sendBtn.addEventListener("click", () => {
         if(user.value == "taquero")
             window.location = taquero;
